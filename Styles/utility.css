@@ -1,0 +1,43 @@
+.border {
+   border: 2px solid royalblue;
+}
+
+.volume-icon {
+   color: var(--secondary-black);
+}
+
+.logo {
+   width: 150px;
+}
+
+.invert {
+   filter: invert(1);
+}
+
+.play-icon {
+   color: var(--secondary-black);
+   font-size: 1.4rem;
+}
+
+.navi,
+.play-icon {
+   margin: 2px 0 0 2px;
+}
+
+/* Define the scrollbar styles */
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+   background: var(--secondary-black);
+   border-radius: 6px;
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+   background-color: var(--green);
+   border-radius: 6px; /* Adjust the border radius for a rounded thumb */
+   border: 3px solid #333; /* Add a border around the thumb */
+}

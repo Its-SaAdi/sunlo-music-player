@@ -1,0 +1,117 @@
+@media screen and (max-width: 1268px) {
+   .left {
+      position: absolute;
+      left: -120%;
+      top: 0;
+      transition: all 0.5s;
+      width: 350px;
+      height: 99vh;
+      z-index: 1;
+      background-color: var(--secondary-black);
+      padding: 0.5rem;
+      border-radius: 18px 0 0 18px;
+      border-right: 2px solid var(--floral-white);
+   }
+
+   .library .album-items {
+      height: 60vh;
+   }
+
+   .flex-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .flex-header .close-btn {
+      scale: 1.2;
+      display: block;
+   }
+
+   .right {
+      width: 100%;
+   }
+
+   .play-area {
+      width: 100%;
+   }
+
+   .ham-burger {
+      display: inline-block;
+   }
+}
+
+@media screen and (max-width: 548px) {
+   .card-container {
+      justify-content: center;
+   }
+}
+
+@media screen and (max-width: 478px) {
+   .spotify-playlists {
+      padding: 0.2rem 1rem;
+   }
+   
+   .spotify-playlists .card {
+      width: 50%;
+   }
+   
+   .play-button {
+      top: 190px;
+      right: 20px;
+   }
+}
+
+@media screen and (max-width: 698px) {
+   .play-area .track-layer{
+      flex-direction: column;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+   }
+
+   .info-volume {
+      align-items: center;
+   }
+   
+   .songInfo {
+      width: auto;
+   }
+   
+   .btn-area {
+      font-size: 1.5rem;
+   }
+
+   .right {
+      position: static;
+   }
+
+   .play-area {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+   }
+
+   .songInfo {
+      order: -2;
+      text-align: center;
+   }
+
+   .btn-area {
+      order: -1;
+   }
+}
+
+@media screen and (max-width: 390px ) {
+   .previous-btn, .forward-btn {
+      display: none;
+   }
+
+   .buttons .login {
+      margin-left: 0.5rem;
+   }
+
+   .card {
+      width: 150px;
+   }
+}
