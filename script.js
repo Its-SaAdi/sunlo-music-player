@@ -67,7 +67,7 @@ currentSong.addEventListener("ended", () => {
 });
 
 async function displayAlbums() {
-   let response = await fetch(`Songs/`);
+   let response = await fetch(`../Songs/`);
    let data = await response.text();
    
    let div = document.createElement("div");
