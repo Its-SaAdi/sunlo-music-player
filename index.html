@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="SVGs/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles/utility.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/media.css">
+    <title>Sunlo 🎧 - Online Music Player</title>
+</head>
+<body>
+    <main class="container">
+        <section class="left">
+            <article class="nav">
+                <article class="flex-header">
+                    <img src="SVGs/Sunlo.png" class="logo" alt="Spotify Logo">
+                    <i class="fa-solid fa-xmark close-btn" title="Close"></i>
+                </article>
+                <nav>
+                    <ul class="list">
+                        <li class="item">
+                            <img src="SVGs/home.svg" class="invert" alt="Home icon">Home
+                        </li>
+                        <li class="item">
+                            <img src="SVGs/search.svg" class="invert" alt="Search icon">Search
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+            
+            <article class="library">
+                <header class="header">
+                    <img src="SVGs/playlist.svg" alt="Library Icon" class="invert">
+                    <span class="ubuntu-bold lib-heading">Album Tracks</span>
+                </header>
+
+                <article class="album">
+                    <ul class="album-items">
+                        
+                    </ul>
+                </article>
+
+                <!-- <footer class="footer">
+                    <a href="https://www.spotify.com/sg-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/sg-en/privacy/">Privacy Center</a>
+                    <a href="https://www.spotify.com/sg-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/sg-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/sg-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/sg-en/accessibility/">Accessibility</a>
+                </footer> -->
+            </article>
+        </section>
+
+        <section class="right">
+            <article class="main-area">
+                <header class="main-header">
+                    <div class="nav-buttons">
+                        <button class="ham-burger btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <button class="previous-btn btn">
+                            <i class="fa-solid fa-chevron-left navi"></i>
+                        </button>
+                        <button class="forward-btn btn">
+                            <i class="fa-solid fa-chevron-right navi"></i>
+                        </button>
+                    </div>
+                    <div class="buttons">
+                        <button class="sign-up btn">Sign up</button>
+                        <button class="login btn">Log in</button>
+                    </div>
+                </header>
+                <article class="spotify-playlists">
+                    <h3>Your Playlists</h3>
+                    <div class="card-container">
+                        
+                    </div>
+                </article>
+
+                <article class="play-area">
+                    <section class="track-layer">
+                        <article class="info-volume">
+                            <article class="songTime">
+                                
+                            </article>
+
+                           <article class="time-volume">
+                                <i class="fa-solid fa-volume-high volume-icon" id="volume-icon"></i>
+                                <article class="range">
+                                    <input type="range" name="volume" id="volume" min="0" max="1" value="1" step="0.1">
+                                </article>
+                           </article>
+                        </article>
+                        
+                        <article class="btn-area">
+                            <i id="back-btn" class="fa-solid fa-backward-step hov"></i>
+                            <i id="play-btn" class="fa-solid fa-circle-play hov"></i>
+                            <i id="next-btn" class="fa-solid fa-forward-step hov"></i>
+                        </article>
+                        
+                        <article class="songInfo">
+
+                        </article>
+                    </section>
+                    
+                    <article class="bar">
+                        <article class="circle"></article>
+                    </article>
+
+                </article>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
