@@ -93,7 +93,6 @@ To set up and run the project locally, follow these steps:
 
 ## Screenshots
 
-### 🎨 Home Page
 ![Home Page](![image](https://github.com/user-attachments/assets/6c0a55e4-ecbe-41e5-8d74-49b9ca9a80b6))
 ![Home Page](![image](https://github.com/user-attachments/assets/6f7ea7f1-01be-4ca0-94e7-89a0607e70f2))
 ![Albums Page](![image](https://github.com/user-attachments/assets/b3d4eabb-3b09-4314-8a86-27ad8ba867ee))
