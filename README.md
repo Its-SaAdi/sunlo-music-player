@@ -71,7 +71,7 @@ To set up and run the project locally, follow these steps:
 
 1. **Clone the repository**  
 
-   git clone https://github.com/your-username/online-music-player.git
+   git clone https://github.com/Its-SaAdi/sunlo-music-player.git
 
 2. **Navigate to the project directory**  
 
@@ -116,8 +116,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Author
 
 **Your Name**  
-- GitHub: [https://github.com/your-username](https://github.com/Its-SaAdi)  
-- LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/saad-tech)  
+- GitHub: [https://github.com/Its-SaAdi](https://github.com/Its-SaAdi)  
+- LinkedIn: [https://linkedin.com/in/saad-tech](https://www.linkedin.com/in/saad-tech)  
 
 ---
 
