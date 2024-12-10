@@ -37,30 +37,30 @@ The project features 5 unique song albums, each containing a variety of tracks t
 
 ---
 
-## 📂 Project Structure
-
+## 📂 Project Structure  
+  
 sunlo-music-player/
 │-- index.html            # Main HTML file
 │-- script.js             # JavaScript logic for audio controls
 │-- Styles/               # CSS styling files
-│   │-- media.css/        # Media Queries for responsive designing
-│   │-- utility.css/      # Utility class styling rules
-|   |-- style.css         # Main CSS file for app styling
-|-- Card-Images/
-│   │-- pic1.jpg/         # Demo Song Album Image
-│-- SVGs/                 # SVGs file used in project
-│   │-- Logo.jpg/    
-│   │-- Sunlo.png/   
-│   │-- home.svg/    
-│   │-- logo.svg/    
-│   │-- playlist.svg/
-│   │-- search.svg/
-|-- Songs/                # Song Albums used for music player.
-|   |-- Punjabi/
-|   |-- Islamic/
-|   |-- Favorites/
-|   |-- Mashup/
-|   |-- Study-Nasheeds/
+│   │-- media.css         # Media Queries for responsive designing
+│   │-- utility.css       # Utility class styling rules
+│   │-- style.css         # Main CSS file for app styling
+│-- Card-Images/          # Image files used for cards
+│   │-- pic1.jpg          # Demo Song Album Image
+│-- SVGs/                 # SVG files used in the project
+│   │-- Logo.jpg          # Logo image
+│   │-- Sunlo.png         # PNG image file
+│   │-- home.svg          # Home icon
+│   │-- logo.svg          # Logo icon
+│   │-- playlist.svg      # Playlist icon
+│   │-- search.svg        # Search icon
+│-- Songs/                # Song albums used for the music player
+│   │-- Punjabi/          # Punjabi song collection
+│   │-- Islamic/          # Islamic song collection
+│   │-- Favorites/        # Favorite tracks
+│   │-- Mashup/           # Mashup tracks
+│   │-- Study-Nasheeds/   # Study nasheed tracks
 │-- README.md             # Documentation file
 
 ---
